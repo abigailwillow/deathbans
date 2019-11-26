@@ -1,0 +1,10 @@
+name: Galaxys-Deathbans
+version: 1.0
+author: Galaxy
+main: dev.glxy.deathbans.Main
+description: This plugin was made for Max No Relax
+
+commands:
+   deathbans:
+      description: Check if deathbans is properly installed
+   

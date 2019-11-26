@@ -1,0 +1,4 @@
+# Define ban time in seconds (86400 is 1 day)
+banLength: 86400
+# Spawn lightning on player death location
+lightningOnDeath: true
