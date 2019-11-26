@@ -7,7 +7,7 @@ import org.bukkit.command.CommandSender;
 import dev.glxy.deathbans.Main;
 
 public class DeathbansCommand implements CommandExecutor {
-private Main plugin;
+	private Main plugin;
 	
 	public DeathbansCommand(Main plugin) {
 		this.plugin = plugin;
