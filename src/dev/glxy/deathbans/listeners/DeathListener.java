@@ -29,7 +29,12 @@ public class DeathListener implements Listener {
 		if (plugin.getConfig().getBoolean("lightningOnDeath")) {
 			player.getWorld().strikeLightningEffect(player.getLocation());
 		}
-		Bukkit.getBanList(BanList.Type.NAME).addBan(player.getName(), reason, expirationDate, null);
-		player.kickPlayer(reason + "\nYour ban will be lifted on " + expirationDate);
+		Bukkit.getBanList(BanList.Type.NAME).addBan(player.getName(), "§c" + reason, expirationDate, null);
+		Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(plugin, new Runnable() {
+			@Override
+			public void run() {
+				player.kickPlayer("§c" + reason + "\n§cYour ban will be lifted on " + expirationDate);
+			}
+		});
 	}
 }
