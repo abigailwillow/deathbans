@@ -2,3 +2,5 @@
 banLength: 86400
 # Spawn lightning on player death location
 lightningOnDeath: true
+# Should it start storming after a player's death
+stormOnDeath: false
