@@ -29,6 +29,11 @@ public class DeathListener implements Listener {
 		if (plugin.getConfig().getBoolean("lightningOnDeath")) {
 			player.getWorld().strikeLightningEffect(player.getLocation());
 		}
+		
+		if (plugin.getConfig().getBoolean("stormOnDeath")) {
+			Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "weather thunder");
+		}
+		
 		Bukkit.getBanList(BanList.Type.NAME).addBan(player.getName(), "§c" + reason, expirationDate, null);
 		Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(plugin, new Runnable() {
 			@Override
