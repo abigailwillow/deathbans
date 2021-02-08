@@ -1,4 +1,4 @@
-# Galaxy's Deathbans
+Abby's Deathbans
 Bans a player upon death for a configurable amount of time
 
 ## What's this?
