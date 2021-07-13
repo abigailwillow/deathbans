@@ -9,4 +9,4 @@ This is a very simple and lightweight plugin that bans players upon death for a 
 1. Download from [Spigot](https://www.spigotmc.org/resources/galaxys-simple-deathbans.73017/) or compile plugin yourself.
 2. Drag and drop into server plugins folder
 3. Run or reload server
-4. Configuration is found in plugins/galaxy-deathbans/config.yml
+4. Configuration is found in plugins/Abbys-Deathbans/config.yml
