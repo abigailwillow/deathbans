@@ -1,15 +1,15 @@
-package dev.glxy.deathbans.commands;
+package com.abbydiode.deathbans.commands;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
-import dev.glxy.deathbans.Main;
+import com.abbydiode.deathbans.App;
 
 public class DeathbansCommand implements CommandExecutor {
-	private Main plugin;
+	private App plugin;
 	
-	public DeathbansCommand(Main plugin) {
+	public DeathbansCommand(App plugin) {
 		this.plugin = plugin;
 		plugin.getCommand("deathbans").setExecutor(this);
 	}

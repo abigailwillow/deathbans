@@ -1,0 +1,18 @@
+main: com.abbydiode.deathbans.App
+name: Abbys-Deathbans
+version: 1.2.1
+description: Bans a player upon death for a configurable amount of time
+author: https://github.com/abbydiode
+website: https://www.spigotmc.org/resources/abbys-deathbans.73017/
+api-version: 1.17
+
+commands:
+   deathbans:
+      description: Check if deathbans is properly installed
+   unban:
+      description: Unban specified player
+   checkban:
+      description: Checks how long specified player is still banned
+   bans:
+      description: See a list of all current bans
+   
