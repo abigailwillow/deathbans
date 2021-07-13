@@ -2,7 +2,7 @@
 
 ## What's this?
 
-This is a very simple and lightweight plugin that bans players upon death for a configurable amount of time. Also has the option to spawn a lightning bolt (without damage) on the player's death location.
+Plugin that bans players upon death for a configurable amount of time. Also has the option to spawn a lightning bolt (without damage) on the player's death location.
 
 ## Instructions
 
