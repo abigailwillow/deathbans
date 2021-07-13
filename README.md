@@ -1,5 +1,4 @@
-Abby's Deathbans
-Bans a player upon death for a configurable amount of time
+# Abby's Deathbans
 
 ## What's this?
 
